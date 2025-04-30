@@ -1,0 +1,23 @@
+{"timestamp":"2025-04-28T10:15:39.162366","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-04-28T10:15:39.164991","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/Newdag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-04-28T10:15:49.077737Z","level":"error","event":"2025/04/28 10:15:49 INFO mlflow.tracking.fluent: Experiment with name 'FraudDetection' does not exist. Creating a new experiment.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.898564Z","level":"error","event":"2025/04/28 10:15:54 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.899229Z","level":"error","event":"The git executable must be specified in one of the following ways:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.899679Z","level":"error","event":"    - be included in your $PATH","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.900355Z","level":"error","event":"    - be set via $GIT_PYTHON_GIT_EXECUTABLE","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.900813Z","level":"error","event":"    - explicitly set via git.refresh(<full-path-to-git-executable>)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.901253Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.903099Z","level":"error","event":"All git commands will error until this is rectified.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.903744Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.904167Z","level":"error","event":"This initial message can be silenced or aggravated in the future by setting the","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.904821Z","level":"error","event":"$GIT_PYTHON_REFRESH environment variable. Use one of the following values:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.905289Z","level":"error","event":"    - quiet|q|silence|s|silent|none|n|0: for no message or exception","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.906409Z","level":"error","event":"    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.907161Z","level":"error","event":"    - error|e|exception|raise|r|2: for a raised exception","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.908423Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.908949Z","level":"error","event":"Example:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.909356Z","level":"error","event":"    export GIT_PYTHON_REFRESH=quiet","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:15:54.910408Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:16:02.163561Z","level":"error","event":"\rDownloading artifacts:   0%|          | 0/7 [00:00<?, ?it/s]\rDownloading artifacts:  14%|█▍        | 1/7 [00:00<00:00, 2159.79it/s]\rDownloading artifacts:  29%|██▊       | 2/7 [00:00<00:00, 3073.88it/s]\rDownloading artifacts:  43%|████▎     | 3/7 [00:00<00:00, 3832.75it/s]\rDownloading artifacts:  57%|█████▋    | 4/7 [00:00<00:00, 4576.44it/s]\rDownloading artifacts:  71%|███████▏  | 5/7 [00:00<00:00, 5091.41it/s]\rDownloading artifacts:  86%|████████▌ | 6/7 [00:00<00:00, 5609.86it/s]\rDownloading artifacts: 100%|██████████| 7/7 [00:00<00:00, 6064.89it/s]\rDownloading artifacts: 100%|██████████| 7/7 [00:00<00:00, 5514.67it/s]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-04-28T10:16:02.264520Z","level":"info","event":"✅ Done. Precision=0.3571, Recall=0.2027, F1=0.2586","chan":"stdout","logger":"task"}
+{"timestamp":"2025-04-28T10:16:02.266402","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
